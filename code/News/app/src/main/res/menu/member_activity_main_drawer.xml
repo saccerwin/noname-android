@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/member_nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Thông tin cá nhân" />
+        <item
+            android:id="@+id/member_nav_index"
+            android:icon="@drawable/icon_index"
+            android:title="Danh mục" />
+        <item
+            android:id="@+id/member_nav_save_news"
+            android:icon="@drawable/save_news"
+            android:title="Bài viết lưu trữ" />
+        <item
+            android:id="@+id/member_nav_logout"
+            android:icon="@drawable/icon_logout"
+            android:title="Đăng xuất" />
+    </group>
+
+</menu>
